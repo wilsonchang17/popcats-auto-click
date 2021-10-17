@@ -8,4 +8,4 @@ browser.get("https://popcat.click/")
 link = browser.find_element_by_xpath("/html/body/div[1]/div")
 while True:
     link.click()
-    time.sleep(0.55)
+    time.sleep(0.1)
